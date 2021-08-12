@@ -17,7 +17,6 @@ Vagrant.configure(2) do |config|
 				domain.cpus = node[:cpus]
 			end
 			vmachine.vm.provision :shell, path: node[:provisionScript]
-			vmachine.vm.provision :file, source: "index.html", destination: "/usr/share/nginx/html/index.html"
 			vmachine.vm.network "forwarded_port", guest: 80, host: 8080
 		end
 	end
