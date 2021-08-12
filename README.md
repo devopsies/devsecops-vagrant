@@ -77,6 +77,8 @@ vagrant up
 
 That command should start the virtual machine we described in the Vagrantfile. This virtual machine will reside in that same folder, meaning managing it and accessing it through the vagrant CLI is only possible from within the current folder.
 
+The shell provisioner will install `Nginx` web server as instructed in the `init.sh` script, and then port `8080` of the host will be forwarded to port `80` of the virtual machine, so you can visit `http://localhost` to see the `index.html` that we've also trasported inside the VM using the file provisioner.
+
 By running the following command, you can see the `.vagrant` hidden file that contains the virtual machine files:
 
 ```bash
@@ -100,3 +102,4 @@ For more information about the Vagrant CLI, run:
 ```bash
 vagratn --help
 ```
+
