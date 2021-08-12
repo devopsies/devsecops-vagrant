@@ -1,6 +1,6 @@
 # DevSecOps Workshops: Vagrant
 
-This is a brief documentation of Hashicorp Vagrant. For the workshop, visit https://github.com/mdnfiras/devsecops-vagrant. For a complete documentation, visit https://www.vagrantup.com/docs/index.
+This is a brief documentation of Hashicorp Vagrant. For the workshop, visit <a href="https://github.com/mdnfiras/devsecops-vagrant">github.com/mdnfiras/devsecops-vagrant</a>. For a complete documentation, visit <a href="https://www.vagrantup.com/docs/index">vagrantup.com/docs</a>.
 
 ## What is Vagrant?
 
