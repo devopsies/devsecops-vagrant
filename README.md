@@ -91,10 +91,10 @@ Run the following command to ssh into the virtual machine:
 vagrant ssh
 ```
 
-If multiple VMs have been defined in the Vagrantfile, then the last command (and many others) must be followed by the hostname of the VM:
+If multiple VMs have been defined in the Vagrantfile, then the last command (and many others) must be followed by the hostname of the VM used in the Vagrantfile:
 
 ```bash
-vagrant ssh web
+vagrant ssh web-server
 ```
 
 For more information about the Vagrant CLI, run:
